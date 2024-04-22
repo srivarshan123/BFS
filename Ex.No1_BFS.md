@@ -1,6 +1,6 @@
 # Ex.No: 1  Implementation of Breadth First Search 
-### DATE:                                                                            
-### REGISTER NUMBER : 
+### DATE: 17/02/2024                                                                           
+### REGISTER NUMBER : 212221040163
 ### AIM: 
 To write a python program to implement Breadth first Search. 
 ### Algorithm:
@@ -46,6 +46,7 @@ bfs(visited, graph, '5')
 
 
 ### Output:
+BFS order is
 ![image](https://github.com/srivarshan123/BFS/assets/103185133/ddbb8dce-861e-4524-ae51-ca8ee32a7479)
 
 
