@@ -44,9 +44,9 @@ print(minimax(0, 0, True, scores, treeDepth))
 
 
 ### Output:
-```
+
 ![image](https://github.com/srivarshan123/BFS/assets/103185133/a7c57d57-0a4d-4f14-ae62-7cf4c012e471)
-```
+
 
 
 ### Result:
