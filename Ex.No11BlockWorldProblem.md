@@ -65,12 +65,9 @@ Step 10 : Obtain the plan for given problem.<br>
 ```
 
 ### Output/Plan:
-```
-Image 1
-![image](https://github.com/srivarshan123/BFS/assets/103185133/f7895853-b8bc-4621-8d2e-0fc18187acae)
-Image 2
-![image](https://github.com/srivarshan123/BFS/assets/103185133/1f9db84f-5883-48fe-926a-d588fef7841a)
-```
+Image 1![image](https://github.com/srivarshan123/BFS/assets/103185133/f7895853-b8bc-4621-8d2e-0fc18187acae)
+Image 2![image](https://github.com/srivarshan123/BFS/assets/103185133/1f9db84f-5883-48fe-926a-d588fef7841a)
+
 
 
 
