@@ -4,7 +4,16 @@
 ### AIM: 
 To write a program to train the classifier for -----------------.
 ###  Algorithm:
-
+```
+Start the program
+Create the graph by using adjacency list representation
+Define a function bfs and take the set “visited” is empty and “queue” is empty
+Search start with initial node and add the node to visited and queue.
+For each neighbor node, check node is not in visited then add node to visited and queue list.
+Creating loop to print the visited node.
+Call the bfs function by passing arguments visited, graph and starting node.
+Stop the program.
+```
 ### Program:
 ```
 # prompt: diabetes model
