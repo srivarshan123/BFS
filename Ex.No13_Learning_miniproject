@@ -1,15 +1,54 @@
-# Ex.No: 10 Learning – Use Supervised Learning  
-### DATE:                                                                            
-### REGISTER NUMBER : 
+# Ex.No: 13 Learning – Use Supervised Learning  
+### DATE: 02/10/2024                                                                           
+### REGISTER NUMBER : 212221040163
 ### AIM: 
 To write a program to train the classifier for -----------------.
 ###  Algorithm:
 
 ### Program:
+```
+# prompt: diabetes model
 
+import pandas as pd
+import numpy as np
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import mean_squared_error
+from sklearn.preprocessing import StandardScaler
+
+# Load the diabetes dataset
+diabetes_data = pd.read_csv('diabetes.csv')
+
+# Split the data into training and testing sets
+X = diabetes_data.drop('Outcome', axis=1)
+y = diabetes_data['Outcome']
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# Standardize the data
+scaler = StandardScaler()
+X_train = scaler.fit_transform(X_train)
+X_test = scaler.transform(X_test)
+
+# Train the linear regression model
+model = LinearRegression()
+model.fit(X_train, y_train)
+
+# Make predictions on the test set
+y_pred = model.predict(X_test)
+
+# Evaluate the model
+mse = mean_squared_error(y_test, y_pred)
+print('Mean squared error:', mse)
+
+# Print the model coefficients
+print('Model coefficients:', model.coef_)
+```
 
 ### Output:
-
-
+```
+Mean squared error: 0.17104527280850101
+Model coefficients: [ 0.03465559  0.1803234  -0.04219339  0.00820563 -0.03230381  0.11631364
+  0.03744793  0.07425473]
+```
 ### Result:
 Thus the system was trained successfully and the prediction was carried out.
